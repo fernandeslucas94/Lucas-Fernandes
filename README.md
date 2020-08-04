@@ -1,9 +1,10 @@
-### 
+# Lucas Fernandes
 
-I’m working on with HTML,CSS and Javascript wich also that is the technologies that I'm studying today and soon I'll  be adding Node.js and React.js
+## Olá pessoal 👋
+Sou um Front End Developer :computer:
 
-How can you find me on social media: 
-
-linkedin: https://www.linkedin.com/in/lucas-fernandes-235255121/ <br>
-twitter: @feitosalucas94 <br>
-instagram: @lucasffernandes94
+ <br/> :computer: &nbsp; Minha stack(do momento): HTML, CSS, Javascript
+ <br/> 💬  &nbsp; Sobre mim: Sou apaixonado por aviação, música, tecnologia, utilizo no dia a dia o Linux (Ubtuntu MATE) em dual boot com Windows 10. 
+ <br/> :email: &nbsp; Entre em contato comigo:
+ <br/> Linkedin: https://www.linkedin.com/in/lucas-fernandes-235255121/
+ <br/> Twitter: @feitosalucas94
