@@ -4,6 +4,6 @@ I’m working on with HTML,CSS and Javascript wich also that is the technologies
 
 How can you find me on social media: 
 
-linkedin: https://www.linkedin.com/in/lucas-fernandes-235255121/
-twitter: @feitosalucas94
+linkedin: https://www.linkedin.com/in/lucas-fernandes-235255121/ <br>
+twitter: @feitosalucas94 <br>
 instagram: @lucasffernandes94
