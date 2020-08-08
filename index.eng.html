@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--Title of the Page-->
+        <title>Lucas Fernandes</title>
+        <!--Meta Tags-->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="description" content="The english version of my personal page" />
+        <!--Links-->
+        <link rel="stylesheet" href="assets/css/index.css" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    </head>
+    
+    <body id="corpo-pagina"><!--Pelo CSS externo, o body não está aceitando estilos-->
+        <!--The begining of the head area-->
+        <header>
+             <!--Here is the begining of the div wich contains the menu and the language options through the flags-->
+            <div class="page-top">
+                <div class="div-flag">
+                    <nav class="flag-nav">
+                        <a href="index.html"><img src="assets/images/bandeira-brasil.png" alt="Portuguese" title="Portuguese" id="brasil"></a>
+                        <a href="index.eng.html"><img src="assets/images/bandeira-inglaterra.png" alt="English" title="English" id="england"/></a>
+                    </nav>
+                </div>
+                
+                <nav class="menu">
+                    <a href="#sobre-mim">About Me</a>
+                    <a href="#tecnologias">Technologies</a>
+                    <a href="#projetos">Projects</a>
+                    <a href="#contato">Contact</a>
+                </nav>
+            </div>
+            <!--End of the top div-->
+        </header>
+        <!--End of the head area-->
+
+        <!--Begining of the container area-->
+        <div class="container">
+            <!--Here is the h1 containing the gretting-->
+            <div id="saudacao">
+                <h1>Welcome!</h1>
+            </div>
+             <!--End of the gretting area-->
+            
+            <hr>
+            
+            <!--Here starts the content of the page-->
+            <section>
+                <div class="foto"> <!--The area below is the "about me" area-->
+                    <article>
+                        <h2 id="sobre-mim">About me</h2> 
+                        
+                        <figure>
+                            <img src="assets/images/eu.jpg" alt="Lucas Fernades" title="Lucas Fernandes"/>
+                        </figure>
+                </div>
+                    
+                        <div class="descricao">
+                            <section class="descricao-sobre-mim">
+                            
+                            <p>
+                                Hey, how is it going ? My name is Lucas Fernandes and I'm a web developer. Nowdays I'm studying web developmet throghout internet. <br> <br>
+
+                                By now,  the stacks that I feel confortable to work with are HTML5, CSS3, Bootstrap e JavaScript. I'm a huge lover of  music, aviation e tech. I try to constantly update myself on the tecnologies that I work with and also, I look to always study new technologies and keep me updated.
+                            </p>
+                    
+                            </section>
+                    </article>
+                    </div>  <!--Here ends the "about me" area-->
+                        <hr>
+                    
+                    <!--The section below is about the technologies that I'm using to study and work-->
+                    <section id="tecnologias">
+                            <div class="tecnologias-ativas">
+                                <article>
+                                    <h2>Technologies</h2>
+                                    
+                                    <h3>Check below the technologies that I work on</h3> <br>
+
+                                    <ul>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>Bootstrap</li>
+                                        <li>JavaScript</li>
+                                    </ul>
+                                </article>
+                            </div>
+                    </section> <!--End of technologies area-->
+
+                        <hr>
+                    
+                    <!--The section below is about the projects that I'm working on-->
+                    <section id="projetos">
+                        <div class="projetos-feitos">
+                            <article>
+                                <h2>Projects</h2>
+
+                                <h3>Check below the projects that I develop</h3> <br>
+
+                                <figure>
+                                    <img src="assets/images/eric-clapton.png" alt="Eric Clapton" title="Eric Clapton"/>
+                                    <figcaption>Tribute Page about Eric Clapton</figcaption>
+                                </figure>
+                            </article>
+                        </div>
+                    </section> <!--End of projects area-->
+
+                    <hr>
+                    
+                    <!--The section below is for the user to make contact-->
+                    <section id="contato">
+                        <div class="tecnologias-ativas">
+                            <article>
+                                <h2>Contact</h2>
+
+                                <h3>In case you want to get in touch, send me a message</h3> <br>
+                                
+                                <form method="GET">
+                                    <label> Type your first name: <br>
+                                        <input type="text" name="first-name" placeholder="First Name">
+                                    </label>
+                                    
+                                    <label> Type your last name: <br>
+                                        <input type="text" name="last-name" placeholder="Last name">
+                                    </label>
+
+                                    <label> Type your best email: <br>
+                                        <input type="email" name="email" placeholder="Email">
+                                    </label> <br> <br>
+
+                                    <textarea style="resize: none;"></textarea> <br><br>
+
+                                    <input type="submit" name="submit" value="Send" style="padding: 1px; width: 90px;">
+                                </form>
+                            </article>    
+                    </section> <!--Here it's the end of the form for contacnt-->
+            </section> <!--Here is the end of the content of the page-->
+
+            <!--Begining of the page footer--> 
+             <footer>
+                <div class="rodape">
+                    &copy Lucas Fernandes - 2020
+                </div>
+            </footer>
+            <!--End of the footer area-->
+        
+        <!--End of the container-->         
+        </div> 
+
+        <!--Here it's JavaScript aplied to the page-->
+        <script src="assets/js/jquery-3.5.1.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

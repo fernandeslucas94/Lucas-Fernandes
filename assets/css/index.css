@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+
+#corpo-pagina {
+    background-color: #CCC;
+}
+
+/*Início do CSS da div do topo*/
+.page-top {
+    background-color:lightslategray;
+    height: 50px;
+    display: flex;
+}
+.page-top a {
+    justify-content: center;
+}
+/*Fim do CSS da div do topo da página*/
+
+.container {
+    background-color: #DCDCDC;
+    flex-direction: column;
+}
+
+/*H1 do Seja Bem Vindo*/
+#saudacao {
+    width: 360px;
+    margin-top: 50px;
+    font-family: 'Rowdies', cursive;
+    margin-bottom: 60px;
+    border-bottom: 3px solid #000;
+} /*Fim do H1*/ 
+
+/*Minha foto*/
+.foto img {
+    width: 300px;
+    border-radius: 150px;
+    float: left;
+    margin-right: 30px;
+} 
+
+.foto {
+    margin-bottom: 250px;
+} /*Fim do CSS da minha foto*/
+
+/*Menu do topo*/
+.page-top {
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+} 
+
+.page-top  a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+}
+.page-top a:visited {
+    text-decoration: none;
+    color: #000;
+}
+.page-top a:hover {
+    color: #000;
+}/*Fim do menu do topo*/
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+}
+p {
+    font-family: 'Playfair Display', serif;
+}
+
+/*CSS da descrição sobre mim*/
+.descricao {
+    margin-top: -200px;
+    margin-bottom: 200px;
+}
+/*Fim do CSS da descrição*/
+
+/*Início do CSS da seção sobre tecnologias*/
+#tecnologias li {
+    list-style-type: none;
+    margin-left: 5px;
+    font-family: 'Playfair Display', serif;
+    line-height: 30px;
+} /*Fim da seção sobre tecnologias */
+
+/*CSS das imagens dos projetos*/
+#projetos img {
+    width: 300px;
+} /*Fim do CSS dos projetos*/
+
+textarea {
+    width: 618px;
+    height: 200px;
+}
+
+.rodape {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/*CSS da área das bandeiras para seleção de idioma*/
+.flag-nav #brasil {
+    width: 30px;
+    height: 30px;
+}
+.flag-nav #england {
+    width: 30px;
+    height: 30px;
+}
+.flag-nav {
+    width: 90px;
+    float: left;
+}
+/*Fim da área das bandeiras*/
+
+/*Responsívo*/
+
+@media (max-width: 699px) {
+    #corpo-pagina {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form textarea, input, label {
+        width: 100vw;
+    }
+
+    form input, label {
+        margin-bottom: 10px;
+    }
+}
