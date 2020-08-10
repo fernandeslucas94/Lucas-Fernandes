@@ -1,6 +1,6 @@
 # Lucas Fernandes
 
-## Olá pessoal 👋
+## Olá, como vai ?
 Sou um Front End Developer :computer:
 
  <br/> :computer: &nbsp; Minha stack(do momento): HTML, CSS, Javascript
